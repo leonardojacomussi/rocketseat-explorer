@@ -1,7 +1,7 @@
 
 <img src="./assets/images/Explorer.png"/>
 
-# Rocketseat Explorer 🚀
+<h1>Rocketseat Explorer 🚀</h1>
 
 This is a repository created to organize the practical projects of Rockeseat's Explorer program, class 10.
 
@@ -69,6 +69,12 @@ Below is an index of projects developed with source code and preview with GitHub
         </tr>
     </tbody>
 </table></p>
+
+<h1>Preview 👁️‍🗨️</h1>
+This repository is hosted on GitHub Pages via the following link: <a href="https://leonardojacomussi.github.io/rocketseat-explorer/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/</a>
+
+<br/>
+<br/>
 
 ---
 Note: <strong style="color: #643cbb">README.md</strong> inspired by <a href="https://github.com/maykbrito/boracodar" target="_blank">https://github.com/maykbrito/boracodar</a>
