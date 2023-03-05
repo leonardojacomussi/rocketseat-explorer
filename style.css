@@ -81,7 +81,7 @@ section table td a {
 section table td a img {
   max-width: 300px;
   width: fit-content;
-  transition: .5s;
+  border-radius: var(--border-radius);
 }
 
 section table td a img:hover {
@@ -110,7 +110,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 30px;
   background-color: var(--light-gray);
 }
 
