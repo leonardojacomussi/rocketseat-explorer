@@ -1,11 +1,8 @@
 body {
   margin: 0;
-
-  font-family: "Open Sans", sans-serif;
-
-  background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
-
   min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
 }
 
 .page {
@@ -14,17 +11,24 @@ body {
   padding-top: 65px;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  margin-bottom: 55px;
+  margin-bottom: 15px;
 }
 
 ul {
   display: flex;
-  gap: 48px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 48px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -44,15 +48,9 @@ ul li a:hover {
   opacity: 1;
 }
 
-ul,
-h1 {
+h1,
+ul {
   font-family: "Mulish", sans-serif;
-}
-
-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 h1 {
@@ -71,6 +69,8 @@ h1 span {
 }
 
 section p {
+  max-width: 440px;
+  
   font-size: 14px;
   line-height: 28px;
   color: #7d7987;
@@ -80,21 +80,21 @@ section p {
 
 button {
   color: white;
-  text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-
   background: #69B99D;
   border: 0;
   padding: 14px 32px 15px;
-
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 10px;
-
   border-radius: 4px;
-
   cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #4EA788;
 }
 
 footer {
@@ -103,7 +103,7 @@ footer {
 
   text-align: center;
 
-  margin-top: 80px;
+  margin-top: 130px;
 }
 
 footer a {

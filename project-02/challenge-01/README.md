@@ -1,10 +1,10 @@
 ### [Back](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-02)[⬅️](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-02)
 
-<h1 align="center"> Challenge 02 </h1>
+<h1 align="center"> Challenge 01 </h1>
 
-Challenge 02 proposed to correct the semantics of the HTML tags and adjust the CSS selectors accordingly in the Project 02 files, for better accessibility.
+Challenge 01 proposed to fix HTML and CSS bugs in the Project 02 files.
 
-Click <strong>[here](https://efficient-sloth-d85.notion.site/Intermedi-rio-Sem-ntica-e-acessibilidade-849b1ec224c349e3854a20aed395a45f)</strong> to access the original files with bugs and challenge instructions.
+Click <strong>[here](https://efficient-sloth-d85.notion.site/Iniciante-Corrigindo-bugs-02-300452b6901e4197b7c6fd291a280acf)</strong> to access the original files with bugs and challenge instructions.
 
 <h2> Before </h2>
 <img alt="License" width="70%" src="images/before.png">
