@@ -1,4 +1,4 @@
-### [Back](https://github.com/leonardojacomussi/rocketseat-explorer/project-01)[⬅️](https://github.com/leonardojacomussi/rocketseat-explorer/project-01)
+### [Back](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-01)[⬅️](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-01)
 
 <h1 align="center"> Challange 01 </h1>
 
@@ -17,4 +17,4 @@ Click <strong>[here](https://efficient-sloth-d85.notion.site/Iniciante-Corrigind
 <img alt="License" width="70%" src="images/after.png">
 
 ---
-Note: access <strong style="color: #643cbb">[Project 01](https://github.com/leonardojacomussi/rocketseat-explorer/project-01)</strong> for more information.
+Note: access <strong style="color: #643cbb">[Project 01](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-01)</strong> for more information.
