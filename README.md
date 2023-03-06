@@ -79,6 +79,18 @@ Below is an index of projects developed with source code and preview with GitHub
             <td align="center">
             <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-01-extra" target="_blank"><img width="300px" src="project-01-extra/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>03</td>
+            <td>Project 02</td>
+            <td align="left">2</td>
+            <td>
+              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-02" target="_blank">
+                /project-02
+              </a>
+            </td>
+            <td align="center">
+            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-02" target="_blank"><img width="300px" src="project-02/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
 
