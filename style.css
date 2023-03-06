@@ -66,12 +66,14 @@ section table {
 section table th {
   font-weight: bold;
   text-align: left;
+  white-space: nowrap;
 }
 
 section table td {
   width: fit-content;
   text-align: left;
   border-spacing: 0px;
+  white-space: nowrap;
 }
 
 section table td a {
