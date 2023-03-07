@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --dark-blue: #2F2E41;
+  --green: #00BFA6;
+  --gray: #C2C2C2;
+  --white: #FFFFFF;
+}
+
+body {
+  margin: 0px;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  /* font-family: "JetBrains Mono", monospace;
+  font-family: "Open Sans", sans-serif; */
+}
+
+#page {
+  width: 85%;
+  /* max-width: 1092px; */
+  margin: auto;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 71px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 64px;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul a {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+main {
+  margin-top: 101px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 77px;
+}
+
+main img {
+  width: 50%;
+}
+
+main section h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0px 0px 59px 0px;
+  /* white-space: nowrap; */
+}
+
+main section p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--gray);
+  text-align: center;
+  margin: 0px;
+}
+
+main section p strong:nth-child(2) {
+  color: var(--green);
+}
+
+h1 strong {
+  color: var(--green);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 157px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+}
+
+footer span a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+@media (max-width: 980px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  footer {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  nav ul {
+    width: 100%;
+    gap: 20px;
+  }
+}
