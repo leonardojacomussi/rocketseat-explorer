@@ -46,7 +46,7 @@ You can view the project layout through [THIS LINK](https://www.figma.com/file/Z
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 
-<strong>Challenge 02</strong> proposed to correct the semantics of the HTML tags and adjust the CSS selectors accordingly in the Project 02 files, for better accessibility.
+<strong>Challenge 02</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
 
 - Click <strong>[here](./challenge-02/)</strong> to learn more.
 

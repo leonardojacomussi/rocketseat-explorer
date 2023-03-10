@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #293241;
+  --light-blue: #BFD7E4;
+  --red: #F67669;
+  --white: #FFFFFF;
+}
+
+
+body, input, select, textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+form fieldset legend, h1, h3, button {
+  font-family: "Staatliches", cursive;
+}
+
+body {
+  background-color: var(--light-blue);
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 465px;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--dark-blue);
+}
+
+.page {
+  width: 750px;
+  margin: 0px auto;
+}
+
+.two-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+}
+
+.two-col div {
+  width: 100%;
+}
+
+.three-col {
+  display: flex;
+  gap: 22px;
+}
+
+.three-col > div:nth-child(1) {
+  width: 100%;
+  margin-right: 22px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 107px;
+  color: var(--white);
+}
+
+header h1 {
+  font-family: "Staatliches";
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+header p {
+  height: 46px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header img {
+  max-width: 225px;
+  margin-top: 1px;
+}
+
+header legend {
+  width: 100%;
+  text-align: center;
+  font-family: "Staatliches";
+  font-size: 24px;
+  line-height: 34px;
+  padding: 50px 0px;
+  margin: 32px auto auto;
+  background-color: var(--red);
+  border-radius: 20px 20px 0px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 32px 64px 64px 64px;
+  border-radius: 0px 0px 20px 20px;
+  margin-bottom: 150px;
+  row-gap: 32px;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.fieldset-wrapper legend {
+  width: 100%;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--dark-blue);
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E6E6F0;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.input-wrapper label,
+.checkbox-wrapper label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--dark-blue);
+}
+
+.input-wrapper label span {
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper span:hover {
+  color: #9a95a3;
+}
+
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+  width: 100%;
+  height: 56px;
+  padding: 5px 20px;
+  color: var(--dark-blue);
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+.fieldset-wrapper select {
+  width: 50%;
+}
+
+.fieldset-wrapper textarea {
+  height: 167px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  column-gap: 8px;
+}
+
+.checkbox-wrapper label::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+.checkbox-wrapper {
+  position: relative;
+}
+
+.checkbox-wrapper label {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-bottom: 0px;
+}
+
+.checkbox-wrapper input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  opacity: 0;
+}
+
+.checkbox-wrapper input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1211_20)'%3E%3Cpath d='M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z' fill='%2342D3FF'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1211_20'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+}
+
+.checkbox-wrapper input:focus + label::before{
+  outline: 2px solid #000;
+}
+
+.button-wrapper input {
+  width: 100%;
+  height: 51px;
+  border: none;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--red);
+  padding: 12.5px auto;
+  text-align: center;
+  margin-top: 64px;
+}
+
+input:invalid {
+  border: 1px solid #FF1010 !important ;
+}
+
+@media (max-width: 800px) {
+  .page {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  form {
+    padding: 32px;
+  }
+
+  .two-col {
+    flex-direction: column;
+  }
+
+  .three-col {
+    flex-direction: column;
+  }
+
+  .fieldset-wrapper select {
+    width: 100%;
+  }
+
+  .input-wrapper input,
+  .input-wrapper textarea,
+  .input-wrapper select {
+      padding: 0px 12px;
+  }
+}
