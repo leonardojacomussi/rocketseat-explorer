@@ -42,7 +42,7 @@ This project was developed with the following technologies:
 You can view the project layout through [THIS LINK](https://www.figma.com/file/ZqRmErD95oI1F90VA79wis/Explorer-Stage-03-Projeto-01-(Copy)). You must have a [Figma](https://figma.com) account to access it.
 
 <h2 id="challenges">👨🏽‍💻 Challenges</h2>
-<strong>Challenge 01</strong> proposed to fix HTML and CSS bugs in the Project 02 files.
+<strong>Challenge 01</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS.
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 
