@@ -10,6 +10,8 @@ Explorer is a complete program that brings together all that is needed to develo
   <a href="#preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
@@ -38,6 +40,15 @@ This project was developed with the following technologies:
 <h2 id="layout">🔖 Layout</h2>
 
 You can view the project layout through [THIS LINK](https://www.figma.com/file/ZqRmErD95oI1F90VA79wis/Explorer-Stage-03-Projeto-01-(Copy)). You must have a [Figma](https://figma.com) account to access it.
+
+<h2 id="challenges">👨🏽‍💻 Challenges</h2>
+<strong>Challenge 01</strong> proposed to fix HTML and CSS bugs in the Project 02 files.
+
+- Click <strong>[here](./challenge-01/)</strong> to learn more.
+
+<strong>Challenge 02</strong> proposed to correct the semantics of the HTML tags and adjust the CSS selectors accordingly in the Project 02 files, for better accessibility.
+
+- Click <strong>[here](./challenge-02/)</strong> to learn more.
 
 <h2 id="license">📜 License</h2>
 
