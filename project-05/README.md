@@ -10,7 +10,7 @@ Explorer is a complete program that brings together all that is needed to develo
   <a href="#preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <!-- <a href="#challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
+  <a href="#challenges">Challenges</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
@@ -40,14 +40,19 @@ This project was developed with the following technologies:
 
 You can view the project layout through [THIS LINK](https://www.figma.com/file/3FKZLgz2NGsMEJBp1ZUNo5/Explorer-Stage-03-Projeto-03-(Copy)). You must have a [Figma](https://figma.com) account to access it.
 
-<!-- <h2 id="challenges">👨🏽‍💻 Challenges</h2>
-<strong>Challenge 01</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS.
+<h2 id="challenges">👨🏽‍💻 Challenges</h2>
+
+<strong>Challenge 1️⃣</strong> proposed to execute a layout in Figma with the following concepts: *mobile First*, *flexible measuring unit*, *variables* and *simple animations*.
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 
-<strong>Challenge 02</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
+<!-- <strong>Challenge 2️⃣</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
 
-- Click <strong>[here](./challenge-02/)</strong> to learn more. -->
+- Click <strong>[here](./challenge-02/)</strong> to learn more.
+
+<strong>Challenge 3️⃣</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
+
+- Click <strong>[here](./challenge-03/)</strong> to learn more. -->
 
 <h2 id="license">📜 License</h2>
 

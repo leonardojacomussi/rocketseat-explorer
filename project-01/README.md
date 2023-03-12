@@ -41,7 +41,7 @@ This project was developed with the following technologies:
 You can view the project layout through [THIS LINK](https://www.figma.com/file/dTVZ0Pb78lEHhIhKgNujmM/Explorer---Projeto-01-(Copy)). You must have a [Figma](https://figma.com) account to access it.
 
 <h2 id="challenge">👨🏽‍💻 Challenge</h2>
-Challenge 01 proposed to fix HTML and CSS bugs in the Project 01 files.
+<strong>Challenge 1️⃣</strong> proposed to fix HTML and CSS bugs in the Project 01 files.
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 

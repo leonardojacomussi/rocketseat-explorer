@@ -41,11 +41,11 @@ This project was developed with the following technologies:
 You can view the project layout through [THIS LINK](https://www.figma.com/file/ZqRmErD95oI1F90VA79wis/Explorer-Stage-03-Projeto-01-(Copy)). You must have a [Figma](https://figma.com) account to access it.
 
 <h2 id="challenges">👨🏽‍💻 Challenges</h2>
-<strong>Challenge 01</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS.
+<strong>Challenge 1️⃣</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS.
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 
-<strong>Challenge 02</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
+<strong>Challenge 2️⃣</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
 
 - Click <strong>[here](./challenge-02/)</strong> to learn more.
 

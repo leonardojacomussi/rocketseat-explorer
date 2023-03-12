@@ -5,7 +5,14 @@
   --light-gray: rgba(87, 97, 109, .3);
   --white: #c9d1d9;
   --purple: #643cbb;
+  --light-purple: #decfff;
   --border-radius: 10px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,7 +34,7 @@ header img {
 }
 
 main {
-  margin: auto 10rem;
+  margin: auto 8rem;
 }
 
 h1 {
@@ -42,7 +49,7 @@ p, a {
 
 a {
   text-decoration: none;
-  color: var(--purple);
+  color: var(--light-purple);
 }
 
 section {
@@ -53,44 +60,66 @@ section {
   margin: 70px auto 0px;
 }
 
-section table {
+.projects-container {
   width: 100%;
-  padding: 20px;
-  color: var(--white);
-  border-collapse: separate;
-  border-spacing: 20px 30px;
+	height: auto;
+  display: grid;
+	grid-template-columns: repeat(auto-fill, 330px);
+	grid-template-rows: repeat(auto-fill, auto);
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	/* margin: auto; */
+}
+
+.projects-container .card {
+  width: fit-content;
+  max-width: 330px;
+  min-height: 350px;
+  padding: 15px;
   background-color: var(--light-gray);
   border-radius: var(--border-radius);
 }
 
-section table th {
-  width: 20%;
-  font-weight: bold;
-  text-align: left;
-  white-space: nowrap;
-}
-
-section table td {
-  width: 20%;
-  width: fit-content;
-  text-align: left;
-  border-spacing: 0px;
-  white-space: nowrap;
-}
-
-section table td a {
-  display: flex;
-}
-
-section table td a img {
+.projects-container .card img {
   max-width: 300px;
-  width: fit-content;
+  margin-bottom: 10px;
   border-radius: var(--border-radius);
 }
 
-section table td a img:hover {
+.projects-container .card img:hover {
   transform: scale(1.05);
   transition: .5s;
+}
+
+.projects-container .card .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projects-container .card h3 {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.projects-container .card h3 span {
+  text-transform: uppercase;
+  min-width: 75px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.projects-container .card h3 a {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  gap: 10px;
 }
 
 .source-code-icon {
@@ -103,7 +132,7 @@ section table td a img:hover {
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  margin-right: 15px;
+  /* margin-right: 15px; */
 }
 
 
@@ -142,29 +171,23 @@ footer a {
   background: #555;
 }
 
-@media (max-width: 1071px) {
+@media (max-width: 944px) {
   main {
-    margin: auto 5rem;
-  }
-  .table-container {
-    overflow-x: scroll;
+    margin: auto 4rem;
   }
 }
 
-@media (max-width: 974px) {
-  section table td a img {
-    width: auto;
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    margin: auto 2rem;
+@media (max-width: 807px) {
+  .projects-container {
+    justify-content: center;
   }
 }
 
 @media (max-width: 400px) {
+  main {
+    margin: auto 2rem;
+  }
+
   h1 {
     font-size: 45px;
     line-height: 53px;

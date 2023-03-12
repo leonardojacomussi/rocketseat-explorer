@@ -41,11 +41,11 @@ This project was developed with the following technologies:
 You can view the project layout through [THIS LINK](https://www.figma.com/file/bCE7rcWpPvc83uAH4tlaM3/Explorer---Projeto-02-(Copy)). You must have a [Figma](https://figma.com) account to access it.
 
 <h2 id="challenges">👨🏽‍💻 Challenges</h2>
-<strong>Challenge 01</strong> proposed to fix HTML and CSS bugs in the Project 02 files.
+<strong>Challenge 1️⃣</strong> proposed to fix HTML and CSS bugs in the Project 02 files.
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 
-<strong>Challenge 02</strong> proposed to correct the semantics of the HTML tags and adjust the CSS selectors accordingly in the Project 02 files, for better accessibility.
+<strong>Challenge 2️⃣</strong> proposed to correct the semantics of the HTML tags and adjust the CSS selectors accordingly in the Project 02 files, for better accessibility.
 
 - Click <strong>[here](./challenge-02/)</strong> to learn more.
 
