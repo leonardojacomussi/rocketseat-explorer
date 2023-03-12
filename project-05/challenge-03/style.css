@@ -1,0 +1,156 @@
+:root {
+  font-size: 62.5%; /*10px*/
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./images/fundo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-position: top;
+}
+
+.field {
+  height: 80%;
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+	grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "hole1 hole2 hole3 hole4"
+    "hole5 hole6 hole7 hole8"
+    "hole9 hole10 hole11 hole12";
+	justify-content: space-evenly;
+	align-items: center;
+  padding: 2rem;
+}
+
+.field .hole:nth-child(1) {
+  grid-area: hole1;
+  animation-name: toupeira;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.field .hole:nth-child(2) {
+  grid-area: hole2;
+}
+
+.field .hole:nth-child(3) {
+  grid-area: hole3;
+}
+
+.field .hole:nth-child(4) {
+  grid-area: hole4;
+  animation-name: toupeira;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7s;
+}
+
+.field .hole:nth-child(5) {
+  grid-area: hole5;
+}
+
+.field .hole:nth-child(6) {
+  grid-area: hole6;
+}
+
+.field .hole:nth-child(7) {
+  grid-area: hole7;
+}
+
+.field .hole:nth-child(8) {
+  grid-area: hole8;
+}
+
+.field .hole:nth-child(9) {
+  grid-area: hole9;
+}
+
+.field .hole:nth-child(10) {
+  grid-area: hole10;
+}
+
+.field .hole:nth-child(11) {
+  grid-area: hole11;
+  animation-name: toupeira;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+  /* animation: toupeira 700ms 450ms infinite; */
+}
+
+.field .hole:nth-child(12) {
+  grid-area: hole12;
+}
+
+.field .hole {
+  width: 15rem;
+  height: 15rem;
+  background-image: url("./images/toupeira6.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+	background-position: top;
+}
+
+@keyframes toupeira {
+  0% {
+    background-image: url("./images/toupeira1.svg");
+  }
+  
+  5% {
+    background-image: url("./images/toupeira2.svg");
+  }
+
+  10% {
+    background-image: url("./images/toupeira3.svg");
+  }
+
+  15% {
+    background-image: url("./images/toupeira4.svg");
+  }
+
+  20% {
+    background-image: url("./images/toupeira5.svg");
+  }
+
+  25% {
+    background-image: url("./images/toupeira6.svg");
+  }
+
+  100% {
+    background-image: url("./images/toupeira6.svg");
+  }
+}
+
+@media(max-width: 700px) {
+  .field {
+    margin-top: 150px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "hole1 hole2 hole3"
+      "hole4 hole5 hole6"
+      "hole7 hole8 hole9"
+      "hole10 hole11 hole12";
+  }
+
+  .field .hole {
+    width: clamp(10rem, 15rem, 17rem);
+    height: clamp(10rem, 15rem, 17rem);
+  }
+}

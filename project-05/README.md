@@ -46,13 +46,13 @@ You can view the project layout through [THIS LINK](https://www.figma.com/file/3
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 
-<!-- <strong>Challenge 2️⃣</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
+<strong>Challenge 2️⃣</strong> proposed to run the mobile version of challenge 01.
 
 - Click <strong>[here](./challenge-02/)</strong> to learn more.
 
-<strong>Challenge 3️⃣</strong> proposed to execute a form layout in Figma with accessibility and validation with HTML and CSS with a few different elements.
+<strong>Challenge 3️⃣</strong> proposed to create animations with keyframes in CSS to make the moles appear in the field.
 
-- Click <strong>[here](./challenge-03/)</strong> to learn more. -->
+- Click <strong>[here](./challenge-03/)</strong> to learn more.
 
 <h2 id="license">📜 License</h2>
 
