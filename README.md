@@ -173,19 +173,7 @@ Below is an index of projects developed with source code and preview with GitHub
               </a>
             </td>
             <td align="center">
-              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-01" target="_blank">
-                <table width="300px">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <img alt="Preview of challenge 01." width="100%" src="project-05/challenge-01/.github/preview-mobile.png">
-                      </td>
-                      <td>
-                        <img alt="Preview of challenge 01." width="100%" src="project-05/challenge-01/.github/preview.png">
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-01" target="_blank"><img width="300px" src="project-05/challenge-01/.github/preview.png" />
               </a>
             </td>
         </tr>
