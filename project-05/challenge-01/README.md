@@ -15,18 +15,9 @@ Click <strong>[here](https://efficient-sloth-d85.notion.site/Mobile-first-3355d7
 
 This challenge is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-01/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-01/</a>
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-        <img alt="Preview of challenge 01." width="100%" src="./.github/preview-mobile.png">
-      </td>
-      <td>
-        <img alt="Preview of challenge 01." width="100%" src="./.github/preview.png">
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+  <img alt="Preview of challenge 01." width="auto" style="height: 720px;" src="./.github/preview.png">
+</p>
 
 ---
 Note: access <strong style="color: #643cbb">[Project 05](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05)</strong>.
