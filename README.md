@@ -5,7 +5,7 @@
 
 This is a repository created to organize the practical projects of Rockeseat's Explorer program, class 10.
 
-Below is an index of projects developed with source code and preview with GitHub Pages.
+Below is an index of projects developed with source code and live with GitHub Pages.
 
 <p align="center">
     Rocketseat Explorer Projects | Class 10<br>
@@ -48,7 +48,7 @@ Below is an index of projects developed with source code and preview with GitHub
                 <img width="201" height="1">
                 <p align="center">
                     <small>
-                    PREVIEW
+                    LIVE
                     </small>
                 </p>
             </th>
@@ -194,7 +194,7 @@ Below is an index of projects developed with source code and preview with GitHub
     </tbody>
 </table></p>
 
-<h1>Preview 👁️‍🗨️</h1>
+<h1>Live 👁️‍🗨️</h1>
 This repository is hosted on GitHub Pages via the following link: <a href="https://leonardojacomussi.github.io/rocketseat-explorer/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/</a>
 
 <br/>

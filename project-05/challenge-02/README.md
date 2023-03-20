@@ -6,7 +6,7 @@ Challenge 02 proposed to run the mobile version of challenge 01 (see [here](../c
 
 Click <strong>[here](https://efficient-sloth-d85.notion.site/Grid-com-anima-es-5ea8b6051189446ebcda9914f7ac4dc9)</strong> to access the challenge instructions.
 
-<h2> Preview </h2>
+<h2> Live </h2>
 
 This challenge is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-02/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-02/</a>
 

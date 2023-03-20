@@ -6,7 +6,7 @@ In challenge 03 it was proposed to create animations with keyframes in CSS to ma
 
 Click <strong>[here](https://efficient-sloth-d85.notion.site/Jardim-das-toupeiras-anima-es-com-keyframes-Opcional-2c949711f082453ab8949633f56e4a01)</strong> to access the challenge instructions.
 
-<h2> Preview </h2>
+<h2> Live </h2>
 
 This challenge is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-03/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-03/</a>
 

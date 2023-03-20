@@ -6,7 +6,7 @@ Challenge 02 proposed to execute a form layout in Figma with accessibility and v
 
 Click <strong>[here](https://efficient-sloth-d85.notion.site/Criando-formul-rios-462826c68ea54d61b1eff955158d1a6d)</strong> to access the challenge instructions.
 
-<h2> Preview </h2>
+<h2> Live </h2>
 
 This challenge is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-03/challenge-02/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/project-03/challenge-02/</a>
 

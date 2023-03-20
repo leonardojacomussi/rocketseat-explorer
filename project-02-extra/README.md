@@ -7,7 +7,7 @@ Explorer is a complete program that brings together all that is needed to develo
 </p>
 
 <p align="center">
-  <a href="#preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#live">Live</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
@@ -23,7 +23,7 @@ Explorer is a complete program that brings together all that is needed to develo
   <img src="./.github/preview.png" width="100%">
 </p>
 
-<h2 id="preview">👁️‍🗨️ Preview</h2>
+<h2 id="live">👁️‍🗨️ Live</h2>
 
 This project is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-02-extra" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/project-02-extra</a>
 
