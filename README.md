@@ -205,6 +205,20 @@ Below is an index of projects developed with source code and live with GitHub Pa
               </a>
             </td>
         </tr>
+        <tr>
+            <td>13</td>
+            <td>Biscoito da Sorte</td>
+            <td align="left">5</td>
+            <td>
+              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/biscoito-da-sorte" target="_blank">
+                /biscoito-da-sorte
+              </a>
+            </td>
+            <td align="center">
+              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/biscoito-da-sorte" target="_blank"><img width="300px" src="biscoito-da-sorte/.github/preview.gif" />
+              </a>
+            </td>
+        </tr>
     </tbody>
 </table></p>
 

@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dancing+Script&family=Montserrat:wght@600&display=swap");
+
+:root {
+  font-size: 62.5%;
+  --fm-heading: "Montserrat", sans-serif;
+  --fm-body: "DM Sans", sans-serif;
+  --fm-dance: "Dancing Script", cursive;
+  --white: #ffffff;
+  --orange: #FF9500;
+  --dark-blue: #34355B;
+  --light-blue: #E4EDF1;
+  --light-gray: #DCE2E9;
+  --light-purple: #7879F1;
+  --bg: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--fm-body);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  animation: gradient 5s ease infinite;
+  background-size: 200% 200%;
+}
+
+.hide {
+  display: none !important;
+}
+
+main {
+  width: min(42.8rem, 90%);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4.8rem 6.4rem 6.4rem;
+  background-color: var(--white);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: .5rem;
+  margin-top: -12rem;
+}
+
+h1 {
+  font-family: var(--fm-heading);
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.9rem;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.screen1 img:hover {
+  cursor: pointer;
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen2 h1 {
+  margin-bottom: 1.7rem;
+}
+
+.screen2 p {
+  color: black;
+  background-color: var(--light-blue);
+  font-family: var(--fm-dance);
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 6rem;
+  box-shadow: .2rem .2rem .2rem rgba(85, 85, 85, 0.5);
+  animation: slide 5s;
+}
+
+button {
+  border: 0;
+  margin: 0;
+  width: 17.4rem;
+  padding: 1.6rem;
+  color: var(--white);
+  background-color: var(--orange);
+  border-radius: .4rem;
+  margin-top: 6rem;
+  transition: all 300ms;
+  cursor: pointer;
+  font-family: var(--fm-body);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #df860a;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(17rem) scale(0);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
