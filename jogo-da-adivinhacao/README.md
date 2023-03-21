@@ -26,7 +26,7 @@ Explorer is a complete program that brings together all that is needed to develo
 
 <h2 id="live">👁️‍🗨️ Live</h2>
 
-This project is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/jogo-adivinhacao" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/jogo-adivinhacao</a>
+This project is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao</a>
 
 <h2 id="technologies">🚀 Technologies</h2>
 
