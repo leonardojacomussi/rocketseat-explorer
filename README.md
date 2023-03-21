@@ -191,6 +191,20 @@ Below is an index of projects developed with source code and live with GitHub Pa
               </a>
             </td>
         </tr>
+        <tr>
+            <td>12</td>
+            <td>Jogo da Adivinhação</td>
+            <td align="left">5</td>
+            <td>
+              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/jogo-adivinhacao" target="_blank">
+                /jogo-adivinhacao
+              </a>
+            </td>
+            <td align="center">
+              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/jogo-adivinhacao" target="_blank"><img width="300px" src="jogo-adivinhacao/.github/preview.png" />
+              </a>
+            </td>
+        </tr>
     </tbody>
 </table></p>
 
