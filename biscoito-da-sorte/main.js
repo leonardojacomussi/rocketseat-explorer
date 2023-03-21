@@ -62,7 +62,8 @@ const motivationalPhrases = [
   "Você sempre será a sua melhor companhia!",
   "Realize o óbvio, pense no improvável e conquiste o impossível.",
 ];
-let randomNumber = Math.round(Math.random() * motivationalPhrases.length);
+let randomNumber;
+randomNumber = getRandomNumber();
 const screen1 = document.querySelector(".screen1");
 const screen2 = document.querySelector(".screen2");
 const fortuneCookie = screen1.querySelector("img");
@@ -70,17 +71,40 @@ const motivationalPhrase = screen2.querySelector("p");
 const btnOpenOtherCookie = screen2.querySelector("button");
 
 // Events
-fortuneCookie.addEventListener("click", () => toggleHide())
-btnOpenOtherCookie.addEventListener("click", handleOpenCookie)
+fortuneCookie.addEventListener("click", () => toggleHide());
+btnOpenOtherCookie.addEventListener("click", handleOpenCookie);
+document.addEventListener("keydown", checkPressEnterOnBtnReset);
 
 // Funções
 function handleOpenCookie() {
   toggleHide();
   motivationalPhrase.innerText = motivationalPhrases[randomNumber];
-  randomNumber = Math.round(Math.random() * motivationalPhrases.length);
+  randomNumber = getRandomNumber();
 };
 
 function toggleHide() {
   screen1.classList.toggle("hide");
   screen2.classList.toggle("hide");
+};
+
+function checkPressEnterOnBtnReset(event) {
+  if (event.key == "Enter" && screen1.classList.contains("hide")) {
+    toggleHide();
+  } else {
+    handleOpenCookie();
+  };
+};
+
+function getRandomNumber () {
+  let newRandomNumber = Math.round(Math.random() * motivationalPhrases.length);
+  if (!randomNumber) {
+    return newRandomNumber;
+  } else if (randomNumber === newRandomNumber) {
+    while (newRandomNumber === randomNumber) {
+      newRandomNumber = getRandomNumber();
+    };
+    return newRandomNumber;
+  } else {
+    return newRandomNumber
+  }
 };
