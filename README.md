@@ -13,226 +13,254 @@ Below is an index of projects developed with source code and live with GitHub Pa
     <br><table>
     <br><table style="width: 100%">
     <thead>
-        <tr>
-            <th align="center">
-                <img width="20" height="1">
-                <p>
-                    <small>#</small>
-                </p>
-            </th>
-            <th align="center">
-                <img width="300" height="1">
-                <p>
-                    <small>
-                        NAME
-                    </small>
-                </p>
-            </th>
-            <th align="left">
-                <img width="140" height="1">
-                <p align="left">
-                    <small>
-                    LEVEL
-                    </small>
-                </p>
-            </th>
-            <th align="left">
-                <img width="140" height="1">
-                <p align="left">
-                    <small>
-                    SOURCE CODE
-                    </small>
-                </p>
-            </th>
-            <th align="center">
-                <img width="201" height="1">
-                <p align="center">
-                    <small>
-                    LIVE
-                    </small>
-                </p>
-            </th>
-        </tr>
+      <tr>
+        <th align="center">
+          <img width="20" height="1">
+          <p>
+            <small>#</small>
+          </p>
+        </th>
+        <th align="center">
+          <img width="300" height="1">
+          <p>
+            <small>
+                NAME
+            </small>
+          </p>
+        </th>
+        <th align="left">
+          <img width="140" height="1">
+          <p align="left">
+            <small>
+            LEVEL
+            </small>
+          </p>
+        </th>
+        <th align="left">
+          <img width="140" height="1">
+          <p align="left">
+            <small>
+            SOURCE CODE
+            </small>
+          </p>
+        </th>
+        <th align="center">
+          <img width="201" height="1">
+          <p align="center">
+            <small>
+            LIVE
+            </small>
+          </p>
+        </th>
+      </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>01</td>
-            <td>Project 01</td>
-            <td align="left">2</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-01" target="_blank">
-                /project-01
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-01" target="_blank"><img width="300px" src="project-01/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>02</td>
-            <td>Project 01 Extra</td>
-            <td align="left">2</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-01-extra" target="_blank">
-                /project-01-extra
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-01-extra" target="_blank"><img width="300px" src="project-01-extra/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>03</td>
-            <td>Project 02</td>
-            <td align="left">2</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-02" target="_blank">
-                /project-02
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-02" target="_blank"><img width="300px" src="project-02/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>04</td>
-            <td>Project 02 Extra</td>
-            <td align="left">2</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-02-extra" target="_blank">
-                /project-02
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-02-extra" target="_blank"><img width="300px" src="project-02-extra/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>05</td>
-            <td>Project 03</td>
-            <td align="left">3</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-03" target="_blank">
-                /project-03
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-03" target="_blank"><img width="300px" src="project-03/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>06</td>
-            <td>Project 03 - Challenge 01</td>
-            <td align="left">3</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-03/challenge-01" target="_blank">
-                /project-03/challenge-01
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-03/challenge-01/" target="_blank"><img width="300px" src="project-03/challenge-01/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>07</td>
-            <td>Project 03 - Challenge 02</td>
-            <td align="left">3</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-03/challenge-02" target="_blank">
-                /project-03/challenge-02
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-03/challenge-02/" target="_blank"><img width="300px" src="project-03/challenge-02/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>08</td>
-            <td>Project 04</td>
-            <td align="left">3</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-04" target="_blank">
-                /project-04
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-04/" target="_blank"><img width="300px" src="project-04/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>09</td>
-            <td>Project 05</td>
-            <td align="left">3</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05" target="_blank">
-                /project-05
-              </a>
-            </td>
-            <td align="center">
-            <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/" target="_blank"><img width="300px" src="project-05/.github/preview.png" /></a></td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>Project 05 - Challenge 02</td>
-            <td align="left">3</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05/challenge-02" target="_blank">
-                /project-05/challenge-02
-              </a>
-            </td>
-            <td align="center">
-              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-02" target="_blank"><img width="300px" src="project-05/challenge-02/.github/preview.png" />
-              </a>
-            </td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>Project 05 - Challenge 01</td>
-            <td align="left">3</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05/challenge-03" target="_blank">
-                /project-05/challenge-03
-              </a>
-            </td>
-            <td align="center">
-              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-03" target="_blank"><img width="300px" src="project-05/challenge-03/.github/preview.gif" />
-              </a>
-            </td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>Jogo da Adivinhação</td>
-            <td align="left">5</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/jogo-da-adivinhacao" target="_blank">
-                /jogo-da-adivinhacao
-              </a>
-            </td>
-            <td align="center">
-              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao" target="_blank"><img width="300px" src="jogo-da-adivinhacao/.github/preview.png" />
-              </a>
-            </td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>Biscoito da Sorte</td>
-            <td align="left">5</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/biscoito-da-sorte" target="_blank">
-                /biscoito-da-sorte
-              </a>
-            </td>
-            <td align="center">
-              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/biscoito-da-sorte" target="_blank"><img width="300px" src="biscoito-da-sorte/.github/preview.gif" />
-              </a>
-            </td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>Calculadora de IMC</td>
-            <td align="left">5</td>
-            <td>
-              <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/calculadora-de-imc" target="_blank">
-                /calculadora-de-imc
-              </a>
-            </td>
-            <td align="center">
-              <a href="https://leonardojacomussi.github.io/rocketseat-explorer/calculadora-de-imc" target="_blank"><img width="300px" src="calculadora-de-imc/.github/preview.png" />
-              </a>
-            </td>
-        </tr>
+      <tr>
+        <td>01</td>
+        <td>Project 01</td>
+        <td align="left">2</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-01" target="_blank">
+            /project-01
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-01" target="_blank"><img width="300px" src="project-01/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Project 01 Extra</td>
+        <td align="left">2</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-01-extra" target="_blank">
+            /project-01-extra
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-01-extra" target="_blank"><img width="300px" src="project-01-extra/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Project 02</td>
+        <td align="left">2</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-02" target="_blank">
+            /project-02
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-02" target="_blank"><img width="300px" src="project-02/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>Project 02 Extra</td>
+        <td align="left">2</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-02-extra" target="_blank">
+            /project-02
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-02-extra" target="_blank"><img width="300px" src="project-02-extra/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td>Project 03</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-03" target="_blank">
+            /project-03
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-03" target="_blank"><img width="300px" src="project-03/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>06</td>
+        <td>Project 03 - Challenge 01</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-03/challenge-01" target="_blank">
+            /project-03/challenge-01
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-03/challenge-01/" target="_blank"><img width="300px" src="project-03/challenge-01/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>07</td>
+        <td>Project 03 - Challenge 02</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-03/challenge-02" target="_blank">
+            /project-03/challenge-02
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-03/challenge-02/" target="_blank"><img width="300px" src="project-03/challenge-02/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>08</td>
+        <td>Project 04</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-04" target="_blank">
+            /project-04
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-04/" target="_blank"><img width="300px" src="project-04/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>09</td>
+        <td>Project 05</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05" target="_blank">
+            /project-05
+          </a>
+        </td>
+        <td align="center">
+        <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/" target="_blank"><img width="300px" src="project-05/.github/preview.png" /></a></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Project 05 - Challenge 02</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05/challenge-02" target="_blank">
+            /project-05/challenge-02
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-02" target="_blank"><img width="300px" src="project-05/challenge-02/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Project 05 - Challenge 01</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05/challenge-03" target="_blank">
+            /project-05/challenge-03
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-05/challenge-03" target="_blank"><img width="300px" src="project-05/challenge-03/.github/preview.gif" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Jogo da Adivinhação</td>
+        <td align="left">5</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/jogo-da-adivinhacao" target="_blank">
+            /jogo-da-adivinhacao
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao" target="_blank"><img width="300px" src="jogo-da-adivinhacao/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Biscoito da Sorte</td>
+        <td align="left">5</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/biscoito-da-sorte" target="_blank">
+            /biscoito-da-sorte
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/biscoito-da-sorte" target="_blank"><img width="300px" src="biscoito-da-sorte/.github/preview.gif" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Calculadora de IMC</td>
+        <td align="left">5</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/calculadora-de-imc" target="_blank">
+            /calculadora-de-imc
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/calculadora-de-imc" target="_blank"><img width="300px" src="calculadora-de-imc/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Project 06</td>
+        <td align="left">5</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06" target="_blank">
+            /project-06
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-06" target="_blank"><img width="300px" src="project-06/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Project 06 - Challenge 01</td>
+        <td align="left">5</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06/challenge-01" target="_blank">
+            /project-06/challenge-01
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-06/challenge-01" target="_blank"><img width="300px" src="project-06/challenge-01/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
     </tbody>
 </table></p>
 

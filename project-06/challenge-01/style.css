@@ -1,0 +1,122 @@
+:root {
+  font-size: 62.5%;
+  --bg-color: #FFFFFF;
+  --primary: #323238;
+  --bg-button: #E1E1E6;
+  --bg-selected: #02799D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary);
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+
+main {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "timer-area sounds-area"
+    "controls-area sounds-area";
+  column-gap: clamp(1.5rem, 2.5rem + 10vw, 19.2rem);
+  row-gap: 4.8rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#timer {
+  grid-area: timer-area;
+  font-size: 12.617rem;
+  line-height: 14.785rem;
+  font-weight: 500;
+  display: flex;
+}
+
+#controls {
+  grid-area: controls-area;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#controls button {
+  width: clamp(2.5rem, 4.8rem + 10vw, 5rem);
+  height: clamp(2.5rem, 4.8rem + 10vw, 5rem);
+}
+
+#sounds {
+  grid-area: sounds-area;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "nature-area rain-area"
+    "coffeeshop-area fireplace-area";
+  gap: clamp(2.5rem, 3.2rem + 10vw, 4rem);
+};
+
+#sounds .nature {
+  grid-area: nature-area;
+}
+
+#sounds .rain {
+  grid-area: rain-area;
+}
+
+#sounds .coffeeshop {
+  grid-area: coffeeshop-area;
+}
+
+#sounds .fireplace {
+  grid-area: fireplace-area;
+}
+
+#sounds button {
+  width: clamp(8rem, 13.8rem + 10vw, 15rem);
+  height: clamp(2rem, 15.2rem + 10vw, 18rem);
+  background-color: var(--bg-button);
+  border-radius: 2.4rem;
+  transition: all .4s;
+}
+
+#sounds button:hover,
+#sounds button.selected {
+  background: var(--bg-selected);
+}
+
+#sounds button:hover svg path,
+#sounds button.selected svg path {
+  fill: white;
+}
+
+@media (max-width: 817px) {
+  main {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "timer-area"
+      "controls-area"
+      "sounds-area";
+    row-gap: 2.5rem;
+  }
+}

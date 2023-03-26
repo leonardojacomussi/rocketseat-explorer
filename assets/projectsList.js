@@ -111,4 +111,20 @@ export default [
     preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/calculadora-de-imc/.github/preview.png",
     altPreview: "Miniature image of preview of Project 'Calculadora de IMC'."
   },
+  {
+    name: "Project 06",
+    level: 5,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/project-06",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/project-06/.github/preview.png",
+    altPreview: "Miniature image of preview of Project 06 (FocusTimer v1)."
+  },
+  {
+    name: "Project 06 - Challenge 01",
+    level: 5,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/project-06/challenge-01",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06/challenge-01",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/project-06/challenge-01/.github/preview.png",
+    altPreview: "Miniature image of preview of Project 06 - Challenge 01 (FocusTimer v2)."
+  },
 ];
