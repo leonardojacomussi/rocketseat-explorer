@@ -170,6 +170,11 @@ svg path, svg path {
   background: var(--bg-selected);
 }
 
+#sounds div:hover svg path,
+#sounds div.selected svg path {
+  fill: var(--bg-volume-control) !important;
+}
+
 @media (max-width: 817px) {
   main {
     width: 100%;
