@@ -261,6 +261,20 @@ Below is an index of projects developed with source code and live with GitHub Pa
           </a>
         </td>
       </tr>
+      <tr>
+        <td>17</td>
+        <td>Project 06 - Challenge 02</td>
+        <td align="left">5</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06/challenge-02" target="_blank">
+            /project-06/challenge-02
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-06/challenge-02" target="_blank"><img width="300px" src="project-06/challenge-02/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
     </tbody>
 </table></p>
 

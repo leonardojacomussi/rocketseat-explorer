@@ -46,9 +46,9 @@ You can view the project layout through [THIS LINK](https://www.figma.com/file/Y
 
 - Click <strong>[here](./challenge-01/)</strong> to learn more.
 
-<!-- <strong>Challenge 2️⃣</strong> proposed to run the mobile version of challenge 01.
+<strong>Challenge 2️⃣</strong> proposed to implement from version 2.0 of Project 06 (FocusTime) new functionalities such as audio volume control and theme selector (light/dark).
 
-- Click <strong>[here](./challenge-02/)</strong> to learn more. -->
+- Click <strong>[here](./challenge-02/)</strong> to learn more.
 
 <h2 id="license">📜 License</h2>
 

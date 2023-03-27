@@ -1,4 +1,4 @@
-### [Back](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-05)[⬅️](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06)
+### [Back](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06)[⬅️](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06)
 
 <h1 align="center"> Challenge 01 </h1>
 
@@ -15,4 +15,4 @@ This challenge is hosted at Github Pages of this repository by the link <a href=
 </p>
 
 ---
-Note: access <strong style="color: #643cbb">[Project 05](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06)</strong>.
+Note: access <strong style="color: #643cbb">[Project 06](https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/project-06)</strong>.
