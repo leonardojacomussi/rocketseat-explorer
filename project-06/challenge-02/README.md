@@ -8,10 +8,10 @@ Click <strong>[here](https://efficient-sloth-d85.notion.site/FocusTimer-Dark-Mod
 
 <h2> Live </h2>
 
-This challenge is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-06/challenge-01/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/project-06/challenge-01/</a>
+This challenge is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/project-06/challenge-02/" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/project-06/challenge-02/</a>
 
 <p align="center">
-  <img alt="Preview of challenge 01." width="auto" style="height: 720px;" src="./.github/preview.png">
+  <img alt="Preview of challenge 02." width="auto" style="height: 720px;" src="./.github/preview.png">
 </p>
 
 ---
