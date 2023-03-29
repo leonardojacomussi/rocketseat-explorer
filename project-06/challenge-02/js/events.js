@@ -15,6 +15,7 @@ import {
   btnThemeSelector
 
 } from "./elements.js";
+import { notNumber } from "./utils.js";
 import { handleDarkTheme, handleLightTheme, currentTheme } from "./theme.js";
 
 
@@ -47,7 +48,7 @@ export default function ({
     };
   })
 
-  function handleTheme () {
+  function handleTheme() {
     if (currentTheme === "light") {
       handleDarkTheme();
     } else {
@@ -70,18 +71,24 @@ export default function ({
   };
 
   function handleBtnAdd() {
-    if (minutes + 5 <= 60) {
-      minutes = minutes + 5
-      minutesDisplay.textContent = String(minutes).padStart(2, "0");
+    let storageMinutes = localStorage.getItem("minutes");
+    storageMinutes = notNumber(storageMinutes) ? minutes : Number(storageMinutes);
+    if (storageMinutes + 5 <= 60) {
+      storageMinutes = storageMinutes + 5
+      minutesDisplay.textContent = String(storageMinutes).padStart(2, "0");
+      localStorage.setItem("minutes", String(storageMinutes));
     } else {
       alert("Escolha um número entre 5 e 60.");
     };
   };
 
   function handleBtnDecount() {
-    if (minutes - 5 >= 5) {
-      minutes = minutes - 5
-      minutesDisplay.textContent = String(minutes).padStart(2, "0");
+    let storageMinutes = localStorage.getItem("minutes");
+    storageMinutes = notNumber(storageMinutes) ? minutes : Number(storageMinutes);
+    if (storageMinutes - 5 >= 5) {
+      storageMinutes = storageMinutes - 5
+      minutesDisplay.textContent = String(storageMinutes).padStart(2, "0");
+      localStorage.setItem("minutes", String(storageMinutes));
     } else {
       alert("Escolha um número entre 5 e 60.");
     };

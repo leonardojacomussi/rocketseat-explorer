@@ -1,4 +1,5 @@
 import Sounds from "./sounds.js";
+import { notNumber } from "./utils.js";
 
 const sound = Sounds();
 
@@ -21,7 +22,9 @@ export default function Timer ({
   
   function reset () {
     hold();
-    updateDisplay(minutes, 0);
+    let storageMinutes = localStorage.getItem("minutes");
+    storageMinutes = notNumber(storageMinutes) ? minutes : Number(storageMinutes);
+    updateDisplay(storageMinutes, 0);
   };
   
   function countDown() {

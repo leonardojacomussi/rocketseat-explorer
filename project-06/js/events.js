@@ -46,6 +46,7 @@ export default function ({
     if (newMinutes) {
       minutes = newMinutes;
       timer.updateDisplay(minutes, 0);
+      localStorage.setItem("minutes", String(minutes));
     };
   };
 };

@@ -25,6 +25,8 @@ const timer = Timer({
   controls
 });
 
+timer.reset();
+
 const sound = Sounds();
 
 Events({

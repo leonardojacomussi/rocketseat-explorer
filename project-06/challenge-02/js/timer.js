@@ -1,3 +1,5 @@
+import { notNumber } from "./utils.js";
+
 export default function Timer ({
   minutes,
   minutesDisplay,
@@ -17,7 +19,9 @@ export default function Timer ({
   
   function reset () {
     hold();
-    updateDisplay(minutes, 0);
+    let storageMinutes = localStorage.getItem("minutes");
+    storageMinutes = notNumber(storageMinutes) ? minutes : Number(storageMinutes);
+    updateDisplay(storageMinutes, 0);
   };
   
   function countDown() {

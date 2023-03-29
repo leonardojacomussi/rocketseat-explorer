@@ -11,6 +11,8 @@ const timer = Timer({
   secondsDisplay
 });
 
+timer.reset();
+
 const sounds = Sounds();
 
 Events({
