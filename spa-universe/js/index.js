@@ -1,12 +1,22 @@
 import { Router } from "./router.js";
+import { linkHomeLogo, linkHome, linkUniverse, linkExploration } from "./elements.js"
 
 const router = new Router();
+const { href } = window.location;
 
-router.add("/spa-universe/", "/spa-universe/pages/home.html");
-router.add("/spa-universe/universe", "/spa-universe/pages/universe.html");
-router.add("/spa-universe/exploration", "/spa-universe/pages/exploration.html");
+if (href.includes("github.io")) {
+  linkHome.setAttribute("href", `/rocketseat-explorer${linkHome.getAttribute("href")}`);
+  linkHomeLogo.setAttribute("href", `/rocketseat-explorer${linkHomeLogo.getAttribute("href")}`);
+  linkUniverse.setAttribute("href", `/rocketseat-explorer${linkUniverse.getAttribute("href")}`);
+  linkExploration.setAttribute("href", `/rocketseat-explorer${linkExploration.getAttribute("href")}`);
+  console.log("ref", linkHomeLogo.getAttribute("href"))
+}
 
-router.handle();
+router.add(linkHome.getAttribute("href"), "/spa-universe/pages/home.html");
+router.add(linkUniverse.getAttribute("href"), "/spa-universe/pages/universe.html");
+router.add(linkExploration.getAttribute("href"), "/spa-universe/pages/exploration.html");
+
+// router.handle();
 
 window.route = () => router.route();
 window.onpopstate = () => router.handle();

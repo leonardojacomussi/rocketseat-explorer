@@ -15,7 +15,8 @@ export class Router {
 
   handle() {
     const { pathname, href } = window.location;
-    const route = href.includes("github.io") ? `/rocketseat-explorer/${this.routes[pathname]}` : this.routes[pathname];
+    const route = this.routes[pathname];
+    console.log(href)
     fetch(route)
       .then((data) => data.text())
       .then((html) => {
