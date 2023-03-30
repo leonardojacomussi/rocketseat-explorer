@@ -135,4 +135,12 @@ export default [
     preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/project-06/challenge-02/.github/preview.png",
     altPreview: "Miniature image of preview of Project 06 - Challenge 02 (FocusTimer - Dark Mode)."
   },
+  {
+    name: "SPA Universe",
+    level: 6,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/spa-universe",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/spa-universe",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/spa-universe/.github/preview.png",
+    altPreview: "Miniature image of preview of Project SPA Universe."
+  },
 ];

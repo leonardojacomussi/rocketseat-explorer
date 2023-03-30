@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  font-size: 62.5%;
+  --primary: #FFFFFF;
+  --secondary: #02799D;
+  --tertiary: #E1E1E6;
+  --quaternary: #8D8D99;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/bg-home.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  color: var(--tertiary);
+}
+
+body, button {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  width: 100%;
+  padding: 4.2rem 7.2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: var(--quaternary);
+  text-decoration: none;
+  font-size: 2.1rem;
+  font-weight: normal;
+}
+
+nav ul li a.current {
+  color: var(--primary);
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 125%;
+  font-weight: bold;
+}
+
+.home {
+  width: 100%;
+  height: calc(100vh - 13rem);
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 2.4rem;
+}
+
+.home a {
+  width: fit-content;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: var(--primary);
+  background-color: transparent;
+  padding: 1.2rem 3.2rem;
+  border: .2rem solid var(--primary);
+  border-radius: .5rem;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+.home a:hover {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+.universe, .exploration {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 65rem;
+  height: calc(100vh - 13rem);
+  gap: 2.4rem;
+  margin-left: 7.2rem;
+}
+
+.universe p, .exploration p {
+  font-size: 1.8rem;
+  line-height: 160%;
+}
