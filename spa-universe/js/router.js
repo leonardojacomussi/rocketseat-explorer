@@ -14,8 +14,8 @@ export class Router {
   };
 
   handle() {
-    const { pathname } = window.location;
-    const route = this.routes[pathname];
+    const { pathname, href } = window.location;
+    const route = href.includes("github.io") ? `/rocketseat-explorer/${this.routes[pathname]}` : this.routes[pathname];
     fetch(route)
       .then((data) => data.text())
       .then((html) => {
