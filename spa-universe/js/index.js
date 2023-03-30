@@ -12,9 +12,9 @@ if (href.includes("github.io")) {
   console.log("ref", linkHomeLogo.getAttribute("href"))
 }
 
-router.add(linkHome.getAttribute("href"), `${href.includes("github.io") ? "/rocketseat-explorer" : ""}/spa-universe/pages/home.html`);
-router.add(linkUniverse.getAttribute("href"), `${href.includes("github.io") ? "/rocketseat-explorer" : ""}/spa-universe/pages/universe.html`);
-router.add(linkExploration.getAttribute("href"), `${href.includes("github.io") ? "/rocketseat-explorer" : ""}/spa-universe/pages/exploration.html`);
+router.add(linkHome.getAttribute("href"), `${href.includes("github.io") ? "/https://leonardojacomussi.github.io/rocketseat-explorer" : ""}/spa-universe/pages/home.html`);
+router.add(linkUniverse.getAttribute("href"), `${href.includes("github.io") ? "/https://leonardojacomussi.github.io/rocketseat-explorer" : ""}/spa-universe/pages/universe.html`);
+router.add(linkExploration.getAttribute("href"), `${href.includes("github.io") ? "/https://leonardojacomussi.github.io/rocketseat-explorer" : ""}/spa-universe/pages/exploration.html`);
 
 // router.handle();
 
