@@ -143,4 +143,12 @@ export default [
     preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/spa-universe/.github/preview.png",
     altPreview: "Miniature image of preview of Project SPA Universe."
   },
+  {
+    name: "GitHub Favorites",
+    level: 6,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/github-favorites",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/github-favorites",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/github-favorites/.github/preview.png",
+    altPreview: "Miniature image of preview of Project GitHub Favorites."
+  },
 ];

@@ -289,6 +289,20 @@ Below is an index of projects developed with source code and live with GitHub Pa
           </a>
         </td>
       </tr>
+      <tr>
+        <td>19</td>
+        <td>GitHub Favorites</td>
+        <td align="left">6</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/github-favorites" target="_blank">
+            /github-favorites
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/github-favorites" target="_blank"><img width="300px" src="github-favorites/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
     </tbody>
 </table></p>
 
