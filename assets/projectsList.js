@@ -151,4 +151,12 @@ export default [
     preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/github-favorites/.github/preview.png",
     altPreview: "Miniature image of preview of Project GitHub Favorites."
   },
+  {
+    name: "GitFav",
+    level: 6,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/gitfav",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/gitfav",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/gitfav/.github/preview.png",
+    altPreview: "Miniature image of preview of Project GitFav."
+  },
 ];

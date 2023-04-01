@@ -303,6 +303,20 @@ Below is an index of projects developed with source code and live with GitHub Pa
           </a>
         </td>
       </tr>
+      <tr>
+        <td>20</td>
+        <td>GitFav</td>
+        <td align="left">6</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/gitfav" target="_blank">
+            /gitfav
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/gitfav" target="_blank"><img width="300px" src="gitfav/.github/preview.png" />
+          </a>
+        </td>
+      </tr>
     </tbody>
 </table></p>
 
