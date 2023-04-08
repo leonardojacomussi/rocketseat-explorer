@@ -1,7 +1,7 @@
 {
   "name": "react-teste",
   "version": "0.1.0",
-  "homepage": "https://leonardojacomussi.github.io/rocketseat-explorer/",
+  "homepage": "https://leonardojacomussi.github.io/rocketseat-explorer/react-teste",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
