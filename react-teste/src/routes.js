@@ -4,7 +4,7 @@ import App from "./App";
 
 function AppRouter() {
   return (
-    <Router basename={"/react-teste"}>
+    <Router basename={"https://leonardojacomussi.github.io/rocketseat-explorer/react-teste"}>
       <Route exact path={`/`} component={App} />
     </Router>
   );
