@@ -88,6 +88,14 @@ export default [
     altPreview: "Miniature image of preview of Project 05 - Challenge 03."
   },
   {
+    name: "Cheesecake",
+    level: 3,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/cheesecake",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/cheesecake",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/cheesecake/.github/preview-desktop.png",
+    altPreview: "Miniature image of preview of Project Cheesecake."
+  },
+  {
     name: "Jogo da Adivinhação",
     level: 5,
     live: "https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao",
