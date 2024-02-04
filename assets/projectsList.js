@@ -96,6 +96,14 @@ export default [
     altPreview: "Miniature image of preview of Project Cheesecake."
   },
   {
+    name: "Galaxies",
+    level: 3,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/galaxies",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/galaxies",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/galaxies/.github/preview-desktop.png",
+    altPreview: "Miniature image of preview of Project Galaxies."
+  },
+  {
     name: "Jogo da Adivinhação",
     level: 5,
     live: "https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao",
