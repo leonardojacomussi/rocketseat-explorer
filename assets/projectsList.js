@@ -104,6 +104,14 @@ export default [
     altPreview: "Miniature image of preview of Project Galaxies."
   },
   {
+    name: "Fotoblog",
+    level: 3,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/fotoblog",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/fotoblog",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/fotoblog/.github/preview-desktop.png",
+    altPreview: "Miniature image of preview of Project Fotoblog."
+  },
+  {
     name: "Jogo da Adivinhação",
     level: 5,
     live: "https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao",
