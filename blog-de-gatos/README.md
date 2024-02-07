@@ -1,6 +1,6 @@
 ### [Back](https://github.com/leonardojacomussi/rocketseat-explorer)[⬅️](https://github.com/leonardojacomussi/rocketseat-explorer)
 
-<h1 align="center"> Fotoblog - Reinforcing responsiveness </h1>
+<h1 align="center"> Blog de Gatos - Reinforcing responsiveness </h1>
 
 <p align="center">
 Explorer is a complete program that brings together all that is needed to develop technical and behavioral skills, with monitoring by a qualified team from Rocketseat, to achieve the first position in the programming market. <br/>
@@ -13,19 +13,28 @@ Explorer is a complete program that brings together all that is needed to develo
   <a href="#license">License</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
-
 <br>
 
-<p align="center">
-  <img src="./.github/preview-desktop.png" width="100%">
-</p>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p align="center">
+          <img src="./.github/preview-desktop.png" width="100%">
+        </p>
+      </td>
+      <td>
+        <p align="center">
+          <img src="./.github/preview-mobile.png" width="100%">
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="live">👁️‍🗨️ Live</h2>
 
-This project is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/fotoblog" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/fotoblog</a>
+This project is hosted at Github Pages of this repository by the link <a href="https://leonardojacomussi.github.io/rocketseat-explorer/blog-de-gatos" target="_blank">https://leonardojacomussi.github.io/rocketseat-explorer/blog-de-gatos</a>
 
 <h2 id="technologies">🚀 Technologies</h2>
 

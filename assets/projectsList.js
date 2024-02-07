@@ -112,6 +112,14 @@ export default [
     altPreview: "Miniature image of preview of Project Fotoblog."
   },
   {
+    name: "Blog de gatos",
+    level: 3,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/blog-de-gatos",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/blog-de-gatos",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/blog-de-gatos/.github/preview-desktop.png",
+    altPreview: "Miniature image of preview of Project Blog de gatos."
+  },
+  {
     name: "Jogo da Adivinhação",
     level: 5,
     live: "https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao",
