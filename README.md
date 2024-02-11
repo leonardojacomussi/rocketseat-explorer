@@ -249,6 +249,20 @@ Below is an index of projects developed with source code and live with GitHub Pa
       </tr>
       <tr>
         <td>16</td>
+        <td>Explore sem limites</td>
+        <td align="left">3</td>
+        <td>
+          <a href="https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/explore-sem-limites" target="_blank">
+            /explore-sem-limites
+          </a>
+        </td>
+        <td align="center">
+          <a href="https://leonardojacomussi.github.io/rocketseat-explorer/explore-sem-limites" target="_blank"><img width="300px" src="explore-sem-limites/.github/preview-desktop.png" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>17</td>
         <td>Jogo da Adivinhação</td>
         <td align="left">5</td>
         <td>
@@ -262,7 +276,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>17</td>
+        <td>18</td>
         <td>Biscoito da Sorte</td>
         <td align="left">5</td>
         <td>
@@ -276,7 +290,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>18</td>
+        <td>19</td>
         <td>Calculadora de IMC</td>
         <td align="left">5</td>
         <td>
@@ -290,7 +304,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>19</td>
+        <td>20</td>
         <td>Project 06</td>
         <td align="left">5</td>
         <td>
@@ -304,7 +318,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>20</td>
+        <td>21</td>
         <td>Project 06 - Challenge 01</td>
         <td align="left">5</td>
         <td>
@@ -318,7 +332,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>21</td>
+        <td>22</td>
         <td>Project 06 - Challenge 02</td>
         <td align="left">5</td>
         <td>
@@ -332,7 +346,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>22</td>
+        <td>23</td>
         <td>SPA Universe</td>
         <td align="left">6</td>
         <td>
@@ -346,7 +360,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>23</td>
+        <td>24</td>
         <td>GitHub Favorites</td>
         <td align="left">6</td>
         <td>
@@ -360,7 +374,7 @@ Below is an index of projects developed with source code and live with GitHub Pa
         </td>
       </tr>
       <tr>
-        <td>24</td>
+        <td>25</td>
         <td>GitFav</td>
         <td align="left">6</td>
         <td>

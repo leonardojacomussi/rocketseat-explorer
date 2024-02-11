@@ -120,6 +120,14 @@ export default [
     altPreview: "Miniature image of preview of Project Blog de gatos."
   },
   {
+    name: "Explore sem limites",
+    level: 3,
+    live: "https://leonardojacomussi.github.io/rocketseat-explorer/explore-sem-limites",
+    source: "https://github.com/leonardojacomussi/rocketseat-explorer/tree/main/explore-sem-limites",
+    preview: "https://raw.githubusercontent.com/leonardojacomussi/rocketseat-explorer/main/explore-sem-limites/.github/preview-desktop.png",
+    altPreview: "Miniature image of preview of Project Explore sem limites."
+  },
+  {
     name: "Jogo da Adivinhação",
     level: 5,
     live: "https://leonardojacomussi.github.io/rocketseat-explorer/jogo-da-adivinhacao",
